@@ -1,0 +1,81 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1685101599776
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: sign up now",
+                "infFile": "t2.inf",
+                "time": 1685101600017
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1685101600193
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: button_next.gif",
+                "infFile": "t4.inf",
+                "time": 1685101600430
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1685101600678
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_homepage",
+                "rawStartTime": 1685101599554,
+                "rawEndTime": 1685101599802,
+                "thinkTime": 0.0,
+                "wastedTime": 0.040635108947753909
+            },
+            {
+                "transactionName": "click_SignUpNow",
+                "rawStartTime": 1685101599819,
+                "rawEndTime": 1685101600022,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04962944984436035
+            },
+            {
+                "transactionName": "complete_profile",
+                "rawStartTime": 1685101600054,
+                "rawEndTime": 1685101600209,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02496051788330078
+            },
+            {
+                "transactionName": "click_Continue",
+                "rawStartTime": 1685101600226,
+                "rawEndTime": 1685101600444,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03096628189086914
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1685101600460,
+                "rawEndTime": 1685101600680,
+                "thinkTime": 0.0,
+                "wastedTime": 0.024605989456176759
+            },
+            {
+                "transactionName": "UC_0_SignUp",
+                "rawStartTime": 1685101599538,
+                "rawEndTime": 1685101600696,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17079734802246095
+            }
+        ]
+    }
+]
